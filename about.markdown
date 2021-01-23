@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### **AREZKI El Mehdi**
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+A java developer with over 4 years of development and implementation experience on projects ranging from small departmental applications through complex enterprise solutions in multi-national corporate environments.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+When not coding, I Like to blog about:
+. `Java`, `Vert.x`, `TDD`, `DDD`, `Microservices`, `Docker`, …
 
 
-[jekyll-organization]: https://github.com/jekyll
+[Linkeding](https://www.linkedin.com/in/mehdi-arezki/)
+
+[Youtube](https://www.youtube.com/channel/UCeU54Sja74q8YLVXuO3HFRg)
+
+[Github](https://github.com/earezki)
+
+[Mail](mailto:arezki.elmehdi@gmail.com)

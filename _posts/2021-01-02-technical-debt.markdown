@@ -2,11 +2,12 @@
 layout: post
 title:  "Technical debt"
 date:   2021-01-02 05:49:46 +0100
-categories: Software design
+categories:
+    - Software design
 permalink: /technical-debt/
 ---
 
-![technical debt](/assets/technical-debt.png "Logo Title Text 1")
+![technical debt](/assets/technical-debt.png "technical debt")
 
 In an agile environment, during the [sprint planning](https://en.wikipedia.org/wiki/Scrum_(software_development)), prioritized tasks are defined, and unnecessary ones are deferred. tasks such as:
 
