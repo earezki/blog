@@ -50,7 +50,7 @@ In a perfect world, each bounded context should have distinct database, code bas
 
 Sub-domain and a Bounded Context are separate concepts, but are confusing to distinct from one another.
 
-> Sub-domain is a problem space concept, Bounded context is a solution space concept._
+> Sub-domain is a problem space concept, Bounded context is a solution space concept.
 
 —  **Eric Evans**
 
@@ -66,7 +66,7 @@ The Ubiquitous Language is a core concept of DDD, it&#39;s the language spoken b
 
 The Ubiquitous Language should be used everywhere in the bounded context, in conversations, code, diagrams, boards, emails …
 
-> A project faces serious problems when its language is fractured._
+> A project faces serious problems when its language is fractured.
 
 —  **Eric Evans**
 
