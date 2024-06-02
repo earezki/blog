@@ -6,7 +6,7 @@ permalink: /about/
 
 ### **AREZKI El Mehdi**
 
-A java developer with over 4 years of development and implementation experience on projects ranging from small departmental applications through complex enterprise solutions in multi-national corporate environments.
+A java developer with over 8 years of development and implementation experience on projects ranging from small departmental applications through complex enterprise solutions in multi-national corporate environments.
 
 When not coding, I Like to blog about:
 . `Java`, `Vert.x`, `TDD`, `DDD`, `Microservices`, `Docker`, …
