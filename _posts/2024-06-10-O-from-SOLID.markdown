@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O from SOLID"
-date:   2024-06-10 05:49:46 +0100
+date:   2024-06-10 00:00:46 +0100
 categories:
     - Software design 
     - SOLID
