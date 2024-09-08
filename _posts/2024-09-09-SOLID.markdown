@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "D from SOLID"
+date:   2024-07-25 00:00:46 +0100
+categories:
+    - Software design 
+    - SOLID
+permalink: /solid-principles/
+---
+
+# SOLID
+
+![solid principles](/assets/solid.png "Solid Principles")
+
+[Single Responsibility Principle (SRP)](./2024-06-02-S-from-SOLID.markdown)
+[Open/Closed Principle (OCP)](./2024-06-10-O-from-SOLID.markdown)
+[The Liskov Substitution Principle (LSP)](./2024-06-13-L-from-SOLID.markdown)
+[Interface Segregation Principle (ISP)](./2024-06-15-I-from-SOLID%20copy.markdown)
+[Dependency Inversion Principle (DIP)](./2024-06-18-D-from-SOLID.markdown)
