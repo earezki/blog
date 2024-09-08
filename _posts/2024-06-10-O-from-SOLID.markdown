@@ -150,9 +150,3 @@ public final class Collectors {
 ## Conclusion
 
 The Open/Closed Principle is a fundamental concept in object-oriented design that promotes the extension of software functionality without modifying existing code. By adhering to OCP, developers can create systems that are more maintainable, extensible, scalable, and testable. 
-
-### References
-- [SOLID Principles by Robert C. Martin](https://en.wikipedia.org/wiki/SOLID)
-- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)
-- [Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides](https://www.goodreads.com/book/show/85009.Design_Patterns)
-- [Effective Java by Joshua Bloch](https://www.goodreads.com/book/show/105099.Effective_Java)

@@ -127,9 +127,3 @@ Subclasses should override methods to provide specific behavior while still hono
 ## Conclusion
 
 The Liskov Substitution Principle is crucial for creating flexible, maintainable, and scalable object-oriented systems. By ensuring that subclasses can substitute their superclasses without altering expected behavior, developers can build more robust and reusable code. Adhering to LSP involves careful design of class hierarchies, mindful implementation of inheritance, and rigorous testing to confirm consistent behavior across the hierarchy. By mastering LSP, you will significantly improve the quality and reliability of your software.
-
-## References
-- [SOLID Principles by Robert C. Martin](https://en.wikipedia.org/wiki/SOLID)
-- [Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides](https://www.goodreads.com/book/show/85009.Design_Patterns)
-- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)
-- [Java SE Documentation](https://docs.oracle.com/javase/8/docs/api/)

@@ -238,7 +238,3 @@ In this case, the `Logger` class captures log messages, while the `Handler` mana
 
 ## Conclusion
 The Single Responsibility Principle is fundamental for writing clean, maintainable, and scalable code. By ensuring that each class in your application has only one responsibility, you make your codebase easier to understand, test, and modify. Applying SRP in Java involves identifying distinct responsibilities and refactoring your code to separate those responsibilities into different classes. Happy coding!
-
-## References
-- [SOLID Principles by Robert C. Martin](https://en.wikipedia.org/wiki/SOLID)
-- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)

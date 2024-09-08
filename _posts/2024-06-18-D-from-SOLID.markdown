@@ -227,11 +227,3 @@ In this example, `MyService` depends on the `GreetingService` interface. The act
 The Dependency Inversion Principle is a cornerstone of good software design. By ensuring that high-level modules depend on abstractions rather than concrete implementations, DIP promotes decoupling, maintainability, testability, and scalability. Applying DIP in Java involves identifying and creating appropriate abstractions, then using dependency injection to manage dependencies.
 
 By following DIP, developers can build more robust, flexible, and maintainable systems, capable of adapting to changing requirements and technologies with minimal friction.
-
-## References
-
-- [SOLID Principles by Robert C. Martin](https://en.wikipedia.org/wiki/SOLID)
-- [Clean Architecture: A Craftsman's Guide to Software Structure and Design by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture)
-- [Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides](https://www.goodreads.com/book/show/85009.Design_Patterns)
-- [Spring Framework Documentation](https://spring.io/projects/spring-framework)
-- [SLF4J Documentation](http://www.slf4j.org/documentation.html)

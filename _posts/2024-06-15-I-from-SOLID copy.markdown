@@ -183,8 +183,3 @@ logger.info("This is a log message");
 
 ### Conclusion
 The Interface Segregation Principle is fundamental for creating clean, maintainable, and scalable software systems. By ensuring that interfaces are specific to client needs, we reduce unnecessary dependencies, enhance maintainability, and improve system flexibility. Applying ISP in Java involves identifying distinct responsibilities and defining specific interfaces for each responsibility, leading to a more modular and robust codebase.
-
-## References
-- [SOLID Principles by Robert C. Martin](https://en.wikipedia.org/wiki/SOLID)
-- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin](https://www.goodreads.com/book/show/3735293-clean-code)
-- [Effective Java by Joshua Bloch](https://www.goodreads.com/book/show/105099.Effective_Java)
