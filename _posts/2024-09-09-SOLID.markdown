@@ -8,9 +8,9 @@ categories:
 permalink: /solid-principles/
 ---
 
-# SOLID
-
 ![solid principles](/assets/solid.png "Solid Principles")
+
+# SOLID
 
 * [Single Responsibility Principle (SRP)](/single-responsibility-principle)
 * [Open/Closed Principle (OCP)](/open-closed-principle/)
