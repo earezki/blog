@@ -107,10 +107,36 @@ One of the key **advantages** of sharding is its ability to enhance scalability,
 
 The choice of a **sharding key** is critical, as a poorly chosen key can lead to unbalanced shards and degrade system performance. Managing cross-shard queries is another challenge, operations like joins, aggregations, or transactions that span multiple shards are more complex/expensive and requires coordination between shards, which can result in higher latency.
 
-### Caching (WIP)
+### Caching
 
-### CDN (WIP)
+Caching is a technique used in software to store copies of data in a location that is faster to access than the original source, reducing latency and improving system performance. It’s a cornerstone of modern computing, used in everything from CPU operations to large-scale distributed systems like CDNs (next chapter) and web applications. The primary goal of caching is to reduce the time and resources needed to fetch frequently used data by keeping it closer to the application or end-user. Caches can exist in various layers of a system, such as in-memory caches (Redis or Memcached), disk-based caches, or client (browser, phone, ...) caches, depending on the requirements of the application.
 
-### Multi-region deployment (WIP)
+It can dramatically improves performance by reducing the time to retrieve data, especially when fetching from slow sources like databases, APIs, or remote servers, or doing intensive calculations. This leads to a better user experience, as pages load faster and applications respond more quickly. Caching also reduces the load on backend systems, since frequently accessed data doesn’t have to be repeatedly computed or fetched. It's also a key enabler for scalability, allowing systems to handle a larger number of users without requiring proportional increases in infrastructure. In distributed systems, caching minimizes the latency associated with network hops by placing data closer to the point of consumption.
+
+However adding a cache isn't always a straighforwad operation, especially while maintaining data consistency in dynamic applications with frequent data changes. Cached data can become stale, leading to incorrect or outdated information being served to users. Managing cache invalidation (updating/removing outdated entries) is notoriously difficult and is often referred to as one of the hardest problems in computer science (along with naming). Over-caching or under-caching can also pose problems. If too much data is cached, it can exhaust memory, while insufficient caching could fail to deliver performance targets.
+
+Hence, Determining what to cache and for how long is critical. we must identify data that is frequently accessed and unlikely to change rapidly to maximize the cache's effectiveness.
+
+There are three common invalidation strategies: time-based expiration (TTL), manual invalidation, and event-driven updates.
+
+Cache misses—when data is requested but not found (not yet loaded, or was invalidated) in the cache which can lead to performance hits as the system falls back to the slower original data source, negating some of the cache’s advantages. Similarly, cache thundering or stampeding occurs when multiple requests simultaneously attempt to fetch the same missing item, overwhelming the backend.
+
+For write-heavy applications or scenarios where every data fetch involves unique or constantly changing information, caching might provide little to negative benefits. Poorly configured caching can lead to security risks, such as exposing sensitive data to unauthorized third parties.
+
+In web development, it powers faster page loads by caching static assets like images, CSS, and JS files. In databases, query caching reduces repetitive reads for commonly accessed data. On a smaller scale.
+
+### CDN
+
+A **Content Delivery Network (CDN for short)** is a distributed network of servers designed to deliver web content, such as images, videos, stylesheets, scripts, ... to users more efficiently by serving them from geographically closer locations. CDNs improve **performance** by reducing latency, minimizing the distance data travels, and offloading traffic from the origin server, enabling faster page load times and a better user experience. They are essential for high-traffic websites, global applications, and services requiring low-latency delivery, such as video streaming. They allow to better handle spikes of traffic, enhanced reliability through redundancy, and they have built-in security features like DDoS mitigation.
+
+### Multi-region deployment
+
+**Multi-region deployment** refers to deploying an application across multiple geographic regions to improve performance, reliability and scalability. This strategy enables faster response times for users by serving content from the nearest location and enhances fault tolerance by reducing the risk of service outages due to regional failures, such as natural disasters or localized infrastructure problems.
+
+Multi-region deployment improves **latency** because users are directed to the nearest server. It also enhances **availability** and **resilience**, if one region experiences downtime, traffic can be rerouted to other regions, ensuring continuous operation. 
+
+However, implementing a multi-region architecture is **complex**. Synchronizing data across regions is challenging, as maintaining consistency often involves trade-offs between performance and strict ACID properties, also, it can cause potential latency for synchronization tasks, such as replicating databases, which can slow down write-heavy applications, moreover, compliance regulations might restrict certain data from being transferred between regions.
+
+### Microservices (WIP)
 
 ### Monitoring & improving. (WIP)
