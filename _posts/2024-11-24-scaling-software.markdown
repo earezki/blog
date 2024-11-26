@@ -8,11 +8,9 @@ categories:
 permalink: /massively-scaling-a-web-application/
 ---
 
-(note this is a work in progress article !)
+As user demands grow, scaling becomes critical. Whether it’s handling a surge in traffic, managing increasing amounts of data, or ensuring high availability, scaling ensures that an application remains responsive and reliable under varying workloads. The process involves strategically optimizing and expanding the infrastructure to meet the demands. This can be done vertically by enhancing the capabilities of existing servers or horizontally by adding more machines or nodes to distribute the load.
 
-Journey to scale an web application to millions of users.
-
-In this article we will see the different possible strategies to massively scale an application.
+In this article, we’ll explore the core principles of application scaling, the strategies available, and some of the trade-offs involved. We'll explore into technical considerations like managing databases, caching, and load balancing, while also addressing common challenges like cost, latency, and architectural complexity.
 
 ### Single server setup
 
@@ -136,7 +134,3 @@ A **Content Delivery Network (CDN for short)** is a distributed network of serve
 Multi-region deployment improves **latency** because users are directed to the nearest server. It also enhances **availability** and **resilience**, if one region experiences downtime, traffic can be rerouted to other regions, ensuring continuous operation. 
 
 However, implementing a multi-region architecture is **complex**. Synchronizing data across regions is challenging, as maintaining consistency often involves trade-offs between performance and strict ACID properties, also, it can cause potential latency for synchronization tasks, such as replicating databases, which can slow down write-heavy applications, moreover, compliance regulations might restrict certain data from being transferred between regions.
-
-### Microservices (WIP)
-
-### Monitoring & improving. (WIP)
