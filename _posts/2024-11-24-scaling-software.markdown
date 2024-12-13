@@ -134,3 +134,5 @@ A **Content Delivery Network (CDN for short)** is a distributed network of serve
 Multi-region deployment improves **latency** because users are directed to the nearest server. It also enhances **availability** and **resilience**, if one region experiences downtime, traffic can be rerouted to other regions, ensuring continuous operation. 
 
 However, implementing a multi-region architecture is **complex**. Synchronizing data across regions is challenging, as maintaining consistency often involves trade-offs between performance and strict ACID properties, also, it can cause potential latency for synchronization tasks, such as replicating databases, which can slow down write-heavy applications, moreover, compliance regulations might restrict certain data from being transferred between regions.
+
+![Scaling software](/assets/scaling_software.jpg "Scaling software")
